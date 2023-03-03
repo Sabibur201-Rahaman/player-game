@@ -47,6 +47,7 @@ setInputValue('')
 setUpdateValue(0)
 setTrigger1(0)
 setTrigger2(0)
+    console.log('hello')
 }
  return (
     <>
