@@ -10,14 +10,7 @@ const App=()=> {
   const[trigger2,setTrigger2]=useState(0) 
   const[playerOne,setPlayerOne]=useState(false)
   const[playerTwo,setPlayerTwo]=useState(false)
-  // const showPlayer=()=>{
-  //  if(disabled===true){
-  //   setDisabled(false)
-  //  }else{
-  //   setDisabled(true)
-  //  }
-  //   }
-  // console.log(receive)
+  console.log(inputValue)
    const handleChange = (event) => {
     setInputValue(event.target.value);
   };
